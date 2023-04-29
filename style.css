@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ----------------banner---------------- */
+.banner{
+    background-color: #CFCFBA;
+    padding: 10px;
+    text-align: center;
+}
+.banner p{
+    font-size: 13px;
+}
+
+
+/* ----------------header---------------- */
+.header{
+    background-color: #D3D3CA;
+}
+.header .logo{
+    padding: 5px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+}
+.header img{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+    
+/* ----------------home---------------- */
+}
+.home{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/img1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 40%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%,80%);
+    text-align: left;
+}
+.text-box h1{
+    width: 60%;
+    margin: 0 0 20px;
+}
+.text-box p1{
+    font-size: 17px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 40px;
+    margin-top: 20px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #b2beb5;
+    background: #b2beb5;
+    transition: 1s;
+}
+
+
+/* ----------------collection---------------- */
+.collection .row {
+  display: flex;
+    padding: 40px;
+    background-color: beige;
+}
+.collection .col{
+  flex: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.collection h1{
+    padding: 40px 60px;
+    background-color: beige;
+}
+.collection h4{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.collection div{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h4{
+    font-size: 40px;
+    padding: 10px;
+}
+.centered p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+
+/* ----------------blog---------------- */
+.blog{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.blog h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.blog .row {
+   display: flex;
+    padding: 40px;
+}
+.blog .col {
+    flex: 100%;
+    padding: 20px;
+}
+.blog .row2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.blog p{
+    font-size: 13px;
+}
+.blog .row2 p{
+    font-size: 13px;
+    margin-left: 20px;
+}
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 40px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn2:hover{
+    border: 1px solid #b2beb5;
+    background: #b2beb5;
+    transition: 1s;
+}
+.blog .btn{
+    text-align: center;
+}
+
+
+/* ----------------about---------------- */
+.about{
+    background-color: #DEDEDA;
+    margin-top: 60px;
+}
+.about p{
+    font-size: 13px;
+    padding: 9px;
+    
+}
+.about .row {
+  display: flex;
+    padding: 40px;
+}
+.about .col{
+  flex: 33.33%;
+}
+.logo{
+ padding: 40px;   
+}
+.logo p{
+    text-align: left;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-right: 120px;
+}
+.logo2{
+    margin-right: 150px;
+    margin-top:20px;
+    padding-left: 40px;
+}
+.logo3{
+    margin-top:20px;
+    text-align: right;
+}
+.img1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.col .col2{
+    padding: 40px;
+}
+.txt_field{
+    padding: 40px;
+}
+.input{
+    padding: 5px;
+    background-color: #DEDEDA;
+}
+.join{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color: black;
+    color: white;
+}
+.join:hover{
+    border: 1px solid #b2beb5;
+    background: #b2beb5;
+    transition: 1s;
+}
+.form{
+    text-align: right;
+    padding-top: 40px;
+    padding-left: 40px;  
+}
+.form .select{
+    padding: 5px;
+    background-color: #DEDEDA;
+}
+.about .footer{
+    text-align: center;
+}
+
+/* ----------------login---------------- */
+.login .header{
+    background-color: white;
+    color: black;
+    padding: 3% 5%;
+    font-size: 30px;
+}
+.login .input_field{
+    padding: 5px;
+}
+.login .email{
+    padding: 10px;
+    width: 450px;
+    height: 35px;
+    background-color: white;
+}
+.login .password{
+    padding: 10px;
+    width: 450px;
+    height: 35px;
+    background-color: white;
+}
+.login .submit{
+    width: 450px;
+    height: 35px;
+    background-color: darkslategray;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+.login .submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.login .down{
+    color: black;
+    font-size: 14px;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+/* ----------------create acc---------------- */
+.create_acc .header{
+    background-color: white;
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.create_acc .input_field{
+    padding: 5px;
+}
+.create_acc .fname{
+    padding: 10px;
+    width: 450px;
+    height: 35px;
+    background-color: white;
+}
+.create_acc .lname{
+    padding: 10px;
+    width: 450px;
+    height: 35px;
+    background-color: white;
+}
+.create_acc .email{
+    padding: 10px;
+    width: 450px;
+    height: 35px;
+    background-color: white;
+}
+.create_acc .password{
+    padding: 10px;
+    width: 450px;
+    height: 35px;
+    background-color: white;
+}
+.create_acc .submit{
+    width: 450px;
+    height: 35px;
+    background-color: darkslategray;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+.create_acc .submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.create_acc .down{
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.create_acc p{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+/* ----------------recover pass---------------- */
+.recover_pass .header{
+    background-color: white;
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.recover_pass .input_field{
+    padding: 5px;
+}
+.recover_pass .input{
+    width: 450px;
+    height: 35px;
+    background-color: white;
+}
+.recover_pass .submit{
+    width: 450px;
+    height: 35px;
+    background-color: darkslategray;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+.recover_pass .submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.recover_pass p{
+    color: black;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.recover_pass .down{
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
